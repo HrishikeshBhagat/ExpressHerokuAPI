@@ -6,7 +6,7 @@ app.get("/",(req,res)=>{
     res.send("api is running..");
 })
 
-app.post("/student/getDetails", function (req, res) {
+app.get("/student/getDetails", function (req, res) {
     res.send(data);
 });
 app.listen(port, console.log(`server runnig..... `));
